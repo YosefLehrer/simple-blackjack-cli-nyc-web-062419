@@ -28,7 +28,7 @@ def initial_round
   display_card_total(displayCardTotal)
 end
 
-def hit?(card)
+def hit?(card_total)
   prompt_user
   this = get_user_input 
   if this == 's'
